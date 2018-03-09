@@ -1,0 +1,181 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Neucha', cursive;
+  background: url("https://cdn.pixabay.com/photo/2017/10/24/17/02/books-2885315_960_720.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+
+nav{
+  position: fixed;
+  z-index: 2;
+  background-color: #263535;
+  color: #dff4dc;
+  height: 100px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.left-list, .right-list{
+  display: inline-block;
+  width: 33%;
+  list-style-type: none;
+  font-size: 22px;
+}
+
+.left-list li, .right-list li {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+nav li, h1{
+  color: #dff4dc;
+  font-weight: bold;
+}
+
+nav li:hover{
+  transform: rotate(360deg);
+  transition-duration: 0.5s;
+}
+
+h1{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  line-height: 100px;
+  font-size: 42px;
+}
+
+.body1, 
+.body3,
+.body2,
+.body4{
+  height: 100vh;
+  opacity: 0.9;
+}
+
+.body2, .body4 {
+  background-color: #263535;
+}
+
+.body1, .body3, footer{
+  background-color: #dff4dc;
+}
+
+.body1-left,
+.body1-right,
+.body2-left,
+.body2-right,
+.body3-left,
+.body3-right,
+.body4-left,
+.body4-right {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+
+.body1-left,
+.body2-left,
+.body3-left,
+.body4-left {
+  float: left;
+}
+
+.body1-right,
+.body2-right,
+.body3-right,
+.body4-right {
+  float: right;
+}
+
+.body1-left{
+  background: url("https://cdn.pixabay.com/photo/2017/01/31/18/44/bible-2026336_960_720.png") no-repeat center;
+  background-size: contain;
+}
+
+.body2-right{
+  background: url("https://cdn.pixabay.com/photo/2012/04/11/16/39/sunbathing-28829_960_720.png") no-repeat center;
+  background-size: contain;
+  filter: invert(90%);
+}
+
+.body3-left{
+  background: url("https://cdn.pixabay.com/photo/2016/11/11/19/46/vintage-1817585_960_720.png") no-repeat center;
+  background-size: contain;
+}
+
+.body4-right{
+  background: url("https://cdn.pixabay.com/photo/2016/04/01/09/02/book-1299123_960_720.png") no-repeat center;
+  background-size: contain;
+  filter: invert(80%);
+}
+
+
+.body1-right h2,
+.body2-left h2,
+.body3-right h2,
+.body4-left h2{
+  width: 90%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.body2-left h2, .body4-left h2{
+  color: #dff4dc;
+}
+
+.body1-right h2, .body3-right h2{
+  color: #263535;
+}
+
+.arrow{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  font-size: 60px;
+}
+
+.arrow a{
+  color: #263535;
+}
+
+footer{
+  opacity: 0.9;
+  padding: 30px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.backtop{
+  color: #263535;
+  font-size: 60px;
+}
+
+.icons{
+  margin: 10px 0;
+}
+
+.icons a{
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: #263535;
+  font-size: 24px;
+}
+
+.about-me{
+  color: #263535;
+  font-size: 20px;
+}
+
+.about-me a {
+  color: #263535;
+}
