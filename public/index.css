@@ -40,8 +40,7 @@ nav li, h1{
 }
 
 nav li:hover{
-  transform: rotate(360deg);
-  transition-duration: 0.5s;
+  border-bottom: 2px solid #dff4dc;
 }
 
 h1{
