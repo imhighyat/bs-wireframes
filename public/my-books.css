@@ -34,13 +34,15 @@ nav{
 }
 
 .main-content{
-	position: absolute;
+	position: fixed;
 	left: 20%;
 	width: 80%;
+	float: right;
 	height: 100vh;
 	background-color: #dff4dc;
 	opacity: 0.95;
-	padding: 150px 100px 50px 100px;
+	padding: 150px 50px 50px 50px;
+	color: #263535;
 	overflow: auto;
 }
 
@@ -69,82 +71,29 @@ nav a{
 	color: #263535;
 }
 
-select{
-	text-align-last: center;
+.book-list li{
 	display: inline-block;
-	width: 23%;
-	outline: none;
-	border-color: #263535;
-	border-width: 1.5px;
+	width: 29%;
+	margin: 20px;
+}
+
+.book-list img{
+	width: 100%;
 	border-radius: 5px;
-	padding: 10px;
-	color: #263535;
-	font-family: 'Neucha', cursive;
+}
+
+.book-list p{
+	text-align: center;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 18px;
 }
 
-option{
-	color: #263535;
-	font-family: 'Neucha', cursive;
-	font-weight: bold;
-	font-size: 16px;
-}
-
-input{
-	display: inline-block;
-	margin: 0 50px;
-	width: 50%;
-	outline: none;
-	border-color: #263535;
-	border-width: 1.5px;
-	border-radius: 5px;
-	padding: 10px 15px;
-	color: #263535;
-	font-family: 'Neucha', cursive;
-	font-weight: bold;
-	font-size: 16px;
-}
-
-.search-field button{
-	width: 150px;
-	outline: none;
-	border-color: #263535;
-	border-width: 1.5px;
-	border-radius: 5px;
-	padding: 10px 15px;
-	background-color: #263535;
-	color: #dff4dc;
-	cursor: pointer;
-	font-weight: bold;
-	font-size: 16px;
-	font-family: 'Neucha', cursive;
-}
-
-.results-field{
-	margin: 50px 0;
-}
-
-.result{
-	width: 43%;
-	height: 300px;
-	border: 2px solid #263535;
-	display: inline-block;
-	margin: 30px;
-	color: #263535;
-}
-
-.result p{
-	font-size: 32px;
-	padding-top: 100px;
+.pagination{
+	margin: 50px 0 20px 0;
 	text-align: center;
 }
 
-.button-field{
-	text-align: center;
-}
-
-.button-field button{
+.pagination button{
 	display: inline-block;
 	width: 70px;
 	outline: none;
@@ -160,7 +109,3 @@ input{
 	font-size: 26px;
 	font-family: 'Neucha', cursive;
 }
-
-
-
-

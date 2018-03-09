@@ -161,6 +161,102 @@ input{
 	font-family: 'Neucha', cursive;
 }
 
+.view-result-modal{
+	position: fixed;
+	top: 100px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background-color: rgba(0,0,0,0.7);
+	overflow: auto;
+}
 
+.result-box{
+	padding: 15px;
+	position: relative;
+	left: 20%;
+	margin-left: 250px;
+	top: 8%;
+	width: 50%;
+	height: 450px;
+	background-color: #dff4dc;
+	border: none;
+	border-radius: 5px;
+}
+
+.book-info{
+	color: #263535;
+}
+
+.book-info img{
+	float: left;
+	width: 30%;
+	height: 30%;
+}
+
+.book-info p{
+	display: inline-block;
+	float: right;
+	width: 70%;
+	padding: 15px;
+	font-size: 18px;
+}
+
+.book-info:before,
+.book-info:after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+.user-swap-list{
+	margin: 25px 0;
+	padding: 0 20px;
+}
+
+.user-swap-list h3{
+	padding: 5px 0 15px 0;
+	color: #263535;
+}
+
+.user-swap-list li{
+	padding: 5px 0;
+	font-size: 18px;
+	margin-left: 30px;
+}
+
+.user-swap-list a{
+	text-decoration: none;
+	color: #263535;
+	display: inline-block;
+	margin-right: 100px;
+}
+
+.fa-exchange-alt{
+	cursor: pointer;
+	color: #263535;
+}
+
+.user-swap-list a:hover{
+	font-weight: bold;
+	font-style: italic;
+}
+
+.result-box button{
+	display: block;
+	margin: 0 auto;
+	outline: none;
+	border: none;
+	border-width: 1.5px;
+	border-radius: 5px;
+	padding: 5px 15px;
+	background-color: #263535;
+	color: #dff4dc;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 26px;
+	font-family: 'Neucha', cursive;
+}
 
 
